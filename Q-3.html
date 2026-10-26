@@ -1,0 +1,393 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieHub | Food Ordering</title>
+    <link rel="stylesheet" href="Q-3.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="navbar">
+    <a href="#home" class="logo">🍔 Foodie<span>Hub</span></a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#restaurants">Restaurants</a>
+        <a href="#menu">Menu</a>
+        <a href="#offers">Offers</a>
+        <a href="#reviews">Reviews</a>
+    </nav>
+
+    <a href="#menu" class="cart-button">🛒 Order Food</a>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <span class="tag">FRESH FOOD • FAST DELIVERY</span>
+
+        <h1>Delicious Food,<br>
+            <span>Delivered To You.</span>
+        </h1>
+
+        <p>
+            Discover amazing restaurants, explore tasty dishes and enjoy
+            your favourite meals delivered right to your doorstep.
+        </p>
+
+        <a href="#menu" class="primary-btn">Explore Menu →</a>
+        <a href="#offers" class="secondary-btn">View Offers</a>
+
+        <div class="hero-stats">
+            <div><h3>50+</h3><p>Food Items</p></div>
+            <div><h3>4.8 ★</h3><p>Customer Rating</p></div>
+            <div><h3>30 min</h3><p>Sample Delivery</p></div>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img
+            src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=85"
+            alt="Delicious burger with fresh ingredients">
+
+        <div class="floating-card">
+            <span>🔥</span>
+            <div>
+                <strong>Today's Favourite</strong>
+                <p>Classic Cheese Burger</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Restaurant Information -->
+<section class="section" id="restaurants">
+    <div class="section-heading">
+        <span class="tag">YOUR LOCAL FOOD EXPERIENCE</span>
+        <h2>Featured Restaurant</h2>
+        <p>Discover delicious meals prepared with care.</p>
+    </div>
+
+    <div class="restaurant-card">
+        <img
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=85"
+            alt="Restaurant interior">
+
+        <div class="restaurant-info">
+            <span class="open-label">● OPEN FOR ORDERS</span>
+            <h3>The Foodie Kitchen</h3>
+            <p>🍽️ Multi-Cuisine Restaurant</p>
+            <p>📍 Sample location: Vijayawada</p>
+
+            <div class="restaurant-stats">
+                <span>⭐ 4.8 Rating</span>
+                <span>⏱ 25–35 min</span>
+                <span>₹49 Delivery</span>
+            </div>
+
+            <a href="#menu" class="primary-btn">View Restaurant Menu →</a>
+        </div>
+    </div>
+</section>
+
+<!-- Special Offers -->
+<section class="offers-section" id="offers">
+    <div class="section">
+        <div class="section-heading">
+            <span class="tag">DEALS YOU WILL LOVE</span>
+            <h2>Special Offers</h2>
+            <p>Enjoy these sample promotional deals.</p>
+        </div>
+
+        <div class="offers-grid">
+            <div class="offer-card offer-orange">
+                <div>
+                    <span class="offer-label">FIRST ORDER</span>
+                    <h3>20% OFF</h3>
+                    <p>On orders above ₹299</p>
+                    <a href="#menu">Order Now →</a>
+                </div>
+                <span class="offer-emoji">🍕</span>
+            </div>
+
+            <div class="offer-card offer-green">
+                <div>
+                    <span class="offer-label">COMBO SPECIAL</span>
+                    <h3>Save ₹100</h3>
+                    <p>On selected meal combos</p>
+                    <a href="#menu">Explore Combos →</a>
+                </div>
+                <span class="offer-emoji">🍔</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Food Categories -->
+<section class="section" id="menu">
+    <div class="section-heading">
+        <span class="tag">FIND YOUR FAVOURITE</span>
+        <h2>Explore Food Categories</h2>
+        <p>Something delicious for every craving.</p>
+    </div>
+
+    <div class="category-grid">
+        <a href="#burgers" class="category-card">
+            <span>🍔</span>
+            <h3>Burgers</h3>
+        </a>
+
+        <a href="#pizza" class="category-card">
+            <span>🍕</span>
+            <h3>Pizza</h3>
+        </a>
+
+        <a href="#main-course" class="category-card">
+            <span>🍛</span>
+            <h3>Main Course</h3>
+        </a>
+
+        <a href="#desserts" class="category-card">
+            <span>🍰</span>
+            <h3>Desserts</h3>
+        </a>
+
+        <a href="#drinks" class="category-card">
+            <span>🥤</span>
+            <h3>Drinks</h3>
+        </a>
+    </div>
+</section>
+
+<!-- Popular Dishes -->
+<section class="section dishes-section">
+    <div class="section-heading">
+        <span class="tag">MADE TO SATISFY</span>
+        <h2>Popular Dishes</h2>
+        <p>Explore our sample menu of customer favourites.</p>
+    </div>
+
+    <div class="food-grid">
+
+        <article class="food-card" id="burgers">
+            <div class="food-image">
+                <img
+                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58bd?auto=format&fit=crop&w=700&q=80"
+                    alt="Classic cheese burger">
+                <span class="food-badge">BESTSELLER</span>
+            </div>
+
+            <div class="food-content">
+                <div class="food-title">
+                    <h3>Classic Cheese Burger</h3>
+                    <span class="rating">★ 4.8</span>
+                </div>
+
+                <p>Juicy burger with cheese, lettuce and fresh vegetables.</p>
+
+                <div class="food-bottom">
+                    <strong class="price">₹199</strong>
+                    <a href="#order-info" class="add-button">+ Add</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card" id="pizza">
+            <div class="food-image">
+                <img
+                    src="https://images.unsplash.com/photo- pizza-?auto=format&fit=crop&w=700&q=80"
+                    alt="Pizza">
+                <span class="food-badge">POPULAR</span>
+            </div>
+
+            <div class="food-content">
+                <div class="food-title">
+                    <h3>Margherita Pizza</h3>
+                    <span class="rating">★ 4.7</span>
+                </div>
+
+                <p>Classic pizza with tomato sauce, cheese and herbs.</p>
+
+                <div class="food-bottom">
+                    <strong class="price">₹249</strong>
+                    <a href="#order-info" class="add-button">+ Add</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card" id="main-course">
+            <div class="food-image">
+                <img
+                    src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=700&q=80"
+                    alt="Indian curry and rice">
+                <span class="food-badge">CHEF'S PICK</span>
+            </div>
+
+            <div class="food-content">
+                <div class="food-title">
+                    <h3>Indian Special Thali</h3>
+                    <span class="rating">★ 4.9</span>
+                </div>
+
+                <p>A satisfying Indian meal with curry, rice and sides.</p>
+
+                <div class="food-bottom">
+                    <strong class="price">₹229</strong>
+                    <a href="#order-info" class="add-button">+ Add</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card" id="desserts">
+            <div class="food-image">
+                <img
+                    src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=700&q=80"
+                    alt="Ice cream dessert">
+                <span class="food-badge">SWEET TREAT</span>
+            </div>
+
+            <div class="food-content">
+                <div class="food-title">
+                    <h3>Chocolate Ice Cream</h3>
+                    <span class="rating">★ 4.6</span>
+                </div>
+
+                <p>Rich, creamy chocolate ice cream for dessert lovers.</p>
+
+                <div class="food-bottom">
+                    <strong class="price">₹99</strong>
+                    <a href="#order-info" class="add-button">+ Add</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card" id="drinks">
+            <div class="food-image">
+                <img
+                    src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=700&q=80"
+                    alt="Refreshing drink">
+                <span class="food-badge">REFRESHING</span>
+            </div>
+
+            <div class="food-content">
+                <div class="food-title">
+                    <h3>Fresh Fruit Cooler</h3>
+                    <span class="rating">★ 4.5</span>
+                </div>
+
+                <p>A refreshing fruit drink served chilled.</p>
+
+                <div class="food-bottom">
+                    <strong class="price">₹89</strong>
+                    <a href="#order-info" class="add-button">+ Add</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card">
+            <div class="food-image">
+                <img
+                    src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=700&q=80"
+                    alt="Noodles">
+                <span class="food-badge">CUSTOMER FAVOURITE</span>
+            </div>
+
+            <div class="food-content">
+                <div class="food-title">
+                    <h3>Veg Hakka Noodles</h3>
+                    <span class="rating">★ 4.7</span>
+                </div>
+
+                <p>Stir-fried noodles with colourful vegetables and spices.</p>
+
+                <div class="food-bottom">
+                    <strong class="price">₹179</strong>
+                    <a href="#order-info" class="add-button">+ Add</a>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- Order Information -->
+<section class="order-section" id="order-info">
+    <div class="order-content">
+        <span class="tag">YOUR NEXT MEAL IS WAITING</span>
+        <h2>Good Food. Great Mood.</h2>
+        <p>
+            Explore the menu, choose your favourite dishes and enjoy
+            a delicious meal.
+        </p>
+        <a href="#menu" class="primary-btn">Browse Food Menu →</a>
+    </div>
+</section>
+
+<!-- Customer Reviews -->
+<section class="section" id="reviews">
+    <div class="section-heading">
+        <span class="tag">HAPPY FOOD LOVERS</span>
+        <h2>Customer Reviews</h2>
+        <p>Sample testimonials for this website demonstration.</p>
+    </div>
+
+    <div class="review-grid">
+        <article class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p>
+                "The burger was delicious and the menu was very easy
+                to browse. Great food selection!"
+            </p>
+            <div class="review-user">
+                <div class="review-avatar">RK</div>
+                <div><strong>Rahul K.</strong><small>Food Lover</small></div>
+            </div>
+        </article>
+
+        <article class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p>
+                "I love the variety of dishes and the attractive
+                presentation. Everything looks amazing."
+            </p>
+            <div class="review-user">
+                <div class="review-avatar">SP</div>
+                <div><strong>Sneha P.</strong><small>Regular Customer</small></div>
+            </div>
+        </article>
+
+        <article class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p>
+                "The offers and food categories make it easy to
+                find something tasty for every occasion."
+            </p>
+            <div class="review-user">
+                <div class="review-avatar">AR</div>
+                <div><strong>Arjun R.</strong><small>Food Explorer</small></div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <a href="#home" class="logo">🍔 Foodie<span>Hub</span></a>
+    <p>Good Food, Delivered with Love.</p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#restaurants">Restaurants</a>
+        <a href="#menu">Menu</a>
+        <a href="#offers">Offers</a>
+        <a href="#reviews">Reviews</a>
+    </div>
+
+    <small>© 2026 FoodieHub. College web development project.</small>
+</footer>
+
+</body>
+</html>
